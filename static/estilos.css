@@ -1,0 +1,149 @@
+/* Estilos generales para el cuerpo de la página */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal para el índice */
+.container {
+    display: flex;
+    gap: 20px; /* Espacio entre los botones */
+}
+
+/* Botones del índice */
+.button1 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120px; /* Alinea verticalmente el texto */
+    width: 120px;
+    height: 120px;
+    background-color: #a000a0; /* Morado */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button2 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120px; /* Alinea verticalmente el texto */
+    width: 120px;
+    height: 120px;
+    background-color: #80c000; /* Verde */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para los botones del índice */
+.button1:hover, .button2:hover {
+    transform: scale(1.1); /* Agranda ligeramente */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Estilo reutilizable para los botones en los formularios */
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 25%;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor de los formularios */
+.contenedor {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título principal */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Etiquetas de los formularios */
+label {
+    font-size: 14px;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #555555;
+}
+
+/* Campos de entrada (input) */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Mensaje de error */
+.error {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Mensaje de bienvenida */
+.bienvenida {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Enlace de cierre de sesión */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor de resultados */
+.resultado {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #dddddd;
+    text-align: left; /* Alineación a la izquierda */
+}
+
+.resultado p {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+}
